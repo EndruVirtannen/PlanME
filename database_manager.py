@@ -10,12 +10,12 @@ import pandas as pd
 
 # Databázové nastavenia
 DB_CONFIG = {
-    'host': 'DB_NAME',
-    'database': 'sql7789559',
-    'user': 'DB_USER',
-    'password': 'DB_PASSWORD',
-    'port': 3306,
-    'charset': 'utf8mb4'
+    'host': st.secrets["database"]["host"],
+    'database': st.secrets["database"]["database"],
+    'user': st.secrets["database"]["user"],
+    'password': st.secrets["database"]["password"],
+    'port': int(st.secrets["database"].get("port", 3306)),  # fallback na 3306
+    'charset': st.secrets["database"].get("charset", "utf8mb4")  # fallback na utf8mb4
 }
 
 
