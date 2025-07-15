@@ -10,10 +10,10 @@ import pandas as pd
 
 # Databázové nastavenia
 DB_CONFIG = {
-    'host': 'sql7.freesqldatabase.com',
+    'host': 'DB_NAME',
     'database': 'sql7789559',
-    'user': 'sql7789559',
-    'password': 'uIsSVmCy9h',
+    'user': 'DB_USER',
+    'password': 'DB_PASSWORD',
     'port': 3306,
     'charset': 'utf8mb4'
 }
