@@ -1,4 +1,11 @@
+# 📦 Core framework
 streamlit
 pandas
 python-dateutil
+
+# 📊 Optimalizačný solver
 ortools
+
+# 🐬 MySQL databáza
+mysql-connector-python
+
