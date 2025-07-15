@@ -321,7 +321,7 @@ def save_teams_to_db(teams_data: List[Dict]) -> bool:
                 cursor.execute(insert_query, values)
                 print(f"✅ Tím {team.get('name', 'N/A')} uložený")
             except Error as team_error:
-                print(f"❌ Chyba pri vkladaní tímu {team.get('name', 'N/A')}: {team_error}")
+                print(f"❌ Chyba  pri vkladaní tímu {team.get('name', 'N/A')}: {team_error}")
                 continue
 
         connection.commit()
