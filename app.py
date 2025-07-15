@@ -30,13 +30,13 @@ from database_manager import (
 
 class SkillLevel(Enum):
     BEGINNER = "Zaciatocník"
-    INTERMEDIATE = "Pokrocilý"
+    INTERMEDIATE = "Pokročilý"
     ADVANCED = "Expert"
     SUPERVISOR = "Supervízor"
 
 
 class ContractType(Enum):
-    FULL_TIME = "Plný úvazok"
+    FULL_TIME = "Plný úväzok"
     PART_TIME = "Ciastočný úvazok"
     TEMPORARY = "Docasný"
     CONTRACT = "Zmluvný"
@@ -2085,4 +2085,4 @@ with st.sidebar:
     """)
 
     st.markdown("---")
-    st.caption("© 2025 PlanME Pro - All rights reserved")# rn.py - Hlavná aplikácia s databázovou integráciou
+    st.caption("© 2025 PlanME Pro - All rights reserved")
